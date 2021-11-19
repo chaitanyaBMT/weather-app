@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather app</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+  </head>
+  <body>
+    <div class="box">
+      <h1 class="heading" contenteditable data-heading="Weather App" ><span class="cloud" >&#9729;</span>Weather App</h1>
+       <br />
+      <input
+        type="text"
+        class="input-city"
+        placeholder="Enter city name"
+        spellcheck="false"
+        required
+      />
+      <button class="btn" onclick="requestData()"><i class="fa fa-search"></i></button>
+      <div class="weather">
+        <img src="#" alt="Weather Icon" />
+        <div class="temp">
+          <span class="num">_</span>
+          <span>°</span>C
+        </div>
+        <div class="weather-status">
+          <span class="status">_</span>
+        </div>
+        <div class="date-part">
+          <span class="day">_</span>,
+          <span class="month"> _</span>
+          <span class="date">_</span>
+        </div>
+      </div>
+    </div>
+
+    <script src="/script.js"></script>
+  </body>
+</html>

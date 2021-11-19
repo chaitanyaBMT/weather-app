@@ -1,0 +1,88 @@
+body {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    align-items: center;
+    margin-left: 200px;
+    background-color: darkblue;
+  }
+  
+  .box {
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 4px solid black;
+    padding: 10px 50px 100px 50px;
+    border-radius: 20px;
+    background-color: rgb(204, 204, 252);
+
+  }
+  
+  input {
+    width: 400px;
+    height: 20px;
+    margin-bottom: 5px;
+    border: -31px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 4px;
+    background-color: honeydew;
+  }
+  
+  button {
+    width: 100px;
+    height: 26px;
+    border: -31px;
+    border-color: rgb(17, 17, 17);
+    border-radius: 4px;
+  }
+  
+  .weather {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .temp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 0 50px;
+    font-size: 30px;
+  }
+  
+  .weather-status {
+    margin: 100px 0px 0 -80px;
+    font-size: 30px;
+  }
+  
+  .date-part {
+    margin: 200px 0 0 -120px;
+    font-size: 30px;
+    padding: 20px;
+  }
+  
+  img {
+    margin-top: 100px;
+    width: 200px;
+    height: 200px;
+  }
+  .heading{
+     transition: 0.5s;
+     text-align: center;
+     font-family: Arial, Helvetica, sans-serif;
+     animation: alternate-reverse;
+     color: white; 
+   font: bold 52px Helvetica, Arial, Sans-Serif;
+   text-shadow: 1px 1px #0d17a7, 
+                2px 2px #3739ac, 
+                3px 3px #79c05c;
+   -webkit-transition: all 0.12s ease-out;
+   -moz-transition:    all 0.12s ease-out;
+   -ms-transition:     all 0.12s ease-out;
+   -o-transition:      all 0.12s ease-out;
+  }
+
+.cloud{
+      font-size: 70px;
+      color: rgb(204, 248, 244);
+  }
